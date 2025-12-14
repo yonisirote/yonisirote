@@ -1,4 +1,4 @@
-## Hi
+## About me
 
 I’m a Computer Science graduate from **The Hebrew University of Jerusalem** who enjoys building real systems and understanding how things work under the hood. I’m especially interested in backend and systems-level development, and I like projects that touch networking, infrastructure, and performance.
 
