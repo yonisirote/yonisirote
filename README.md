@@ -11,7 +11,7 @@ I’m a Computer Science graduate from **The Hebrew University of Jerusalem** wh
 ## Technical Skills
 
 **Languages**
-- C++, C, Python, JavaScript / TypeScript
+- Python, JavaScript/TypeScript, C++, C, Java
 
 **Backend & Web**
 - Node.js, Express.js, React
