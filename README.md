@@ -37,17 +37,25 @@ I’m a Computer Science graduate from **The Hebrew University of Jerusalem** wh
 
 ## Selected Projects
 
+### **ReadMyFeed**
+https://github.com/yonisirote/readmyfeed
+
+Backend service that reads and delivers X/Twitter home feed content via REST API with pagination support.
+
+**Highlights**
+- REST API with paginated feed retrieval using cursor-based navigation
+- TypeScript workspace setup with Express.js server
+- X API integration with authentication handling
+
+**Tech**
+TypeScript, Node.js, Express.js, X/Twitter API
+
+---
+
 ### **HostMate**
 https://github.com/yonisirote/hostmate
 
-A full-stack web application that helps hosts organize meals and generate personalized menus based on guest preferences.  
-This project started from a real use case and grew into a complete system with authentication, persistence, and deployment.
-
-**Highlights**
-- Designed REST APIs and authentication using JWT access and refresh tokens
-- Built a preference-collection flow using ranking links sent to guests
-- Generated per-meal menus tailored to individual guest tastes
-- Worked with a production-style backend setup and deployment flow
+Full-stack app for organizing meals with personalized guest menus. Built complete authentication, preference collection via ranking links, and per-meal menu generation.
 
 **Tech**
 TypeScript, Express.js, React, SQLite (Turso), Drizzle ORM, JWT, Railway
@@ -57,16 +65,7 @@ TypeScript, Express.js, React, SQLite (Turso), Drizzle ORM, JWT, Railway
 ### **MiniVPN**
 https://github.com/yonisirote/minivpn
 
-A barebones but fully functional VPN for Linux, built as a learning project to understand VPNs and Linux networking from first principles rather than relying on existing tools.
-
-**Client**
-- Sets up a TUN interface
-- Encrypts, sends, receives, and decrypts traffic over UDP
-
-**Server**
-- Configures TUN, IP forwarding, and NAT
-- Handles encrypted UDP traffic and forwards packets
-- Deployed on AWS EC2
+Functional Linux VPN from scratch. Client sets up TUN interface and handles encrypted UDP traffic. Server configures TUN, IP forwarding, NAT, and forwards packets. Deployed on AWS EC2.
 
 **Tech**
 Python, TUN/TAP, UDP sockets, NAT, AES-256-GCM, AWS EC2
