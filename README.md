@@ -40,15 +40,10 @@ I’m a Computer Science graduate from **The Hebrew University of Jerusalem** wh
 ### **ReadMyFeed**
 https://github.com/yonisirote/readmyfeed
 
-Backend service that reads and delivers X/Twitter home feed content via REST API with pagination support.
-
-**Highlights**
-- REST API with paginated feed retrieval using cursor-based navigation
-- TypeScript workspace setup with Express.js server
-- X API integration with authentication handling
+A Node.js/Express backend service that streams X/Twitter feed content with text-to-speech capabilities. Features cursor-based pagination, rate limiting, and seamless API integration with TypeScript
 
 **Tech**
-TypeScript, Node.js, Express.js, X/Twitter API
+TypeScript, Node.js, Express.js, Text-to-Speech (Web Speech API), RESTful API design with pagination
 
 ---
 
